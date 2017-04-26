@@ -217,7 +217,7 @@ module Zaif
         end
 
         def get_nonce
-            time = Time.now.to_f
+            time = Time.now.to_fi * 100
             return time.to_i
         end
 
