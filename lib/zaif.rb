@@ -217,8 +217,8 @@ module Zaif
         end
 
         def get_nonce
-            time = Time.now.to_f * 10
-            return time.to_i
+            time = Time.now.to_f
+            return time
         end
 
         def get_cool_down
